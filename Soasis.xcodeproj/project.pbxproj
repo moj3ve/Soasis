@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA33EACF230EFAFC00506052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33EACE230EFAFC00506052 /* AppDelegate.swift */; };
+		FA33EAD3230EFAFC00506052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33EAD2230EFAFC00506052 /* ViewController.swift */; };
+		FA33EAD6230EFAFC00506052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA33EAD4230EFAFC00506052 /* Main.storyboard */; };
+		FA33EAD8230EFAFD00506052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA33EAD7230EFAFD00506052 /* Assets.xcassets */; };
+		FA33EADB230EFAFD00506052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA33EAD9230EFAFD00506052 /* LaunchScreen.storyboard */; };
+		FA33EAE6230EFAFD00506052 /* SoasisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33EAE5230EFAFD00506052 /* SoasisTests.swift */; };
+		FA33EAF1230EFAFD00506052 /* SoasisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33EAF0230EFAFD00506052 /* SoasisUITests.swift */; };
+		FA33EB0A230EFBA200506052 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA33EB03230EFBA100506052 /* gameOver.wav */; };
+		FA33EB0D230EFBA200506052 /* buttonSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA33EB06230EFBA200506052 /* buttonSound.wav */; };
+		FA38185D23155098003A6248 /* gettingAPoint.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA38185C23155098003A6248 /* gettingAPoint.wav */; };
+		FA381860231551FA003A6248 /* gameBackgroundMusic1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA38185E231551FA003A6248 /* gameBackgroundMusic1.wav */; };
+		FA381861231551FA003A6248 /* gameBackgroundMusic2.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA38185F231551FA003A6248 /* gameBackgroundMusic2.wav */; };
+		FA44B3872315ACB2003E8BEE /* losingAPoint.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA44B3862315ACB2003E8BEE /* losingAPoint.wav */; };
+		FA670C23233E769B00887B7D /* buySuccessful.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA670C21233E769B00887B7D /* buySuccessful.wav */; };
+		FA670C24233E769B00887B7D /* buyUnsuccessful.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA670C22233E769B00887B7D /* buyUnsuccessful.wav */; };
+		FAF8038F23142A0E00C481C1 /* gameBackgroundMusic3.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF8038C23142A0E00C481C1 /* gameBackgroundMusic3.wav */; };
+		FAF803982314382A00C481C1 /* gameStart.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF803922314382900C481C1 /* gameStart.wav */; };
+		FAF8039B2314382A00C481C1 /* motionShakeToggle.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF803952314382A00C481C1 /* motionShakeToggle.wav */; };
+		FAF8039D2314382A00C481C1 /* harderByScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF803972314382A00C481C1 /* harderByScore.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA33EAE2230EFAFD00506052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA33EAC3230EFAFC00506052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA33EACA230EFAFC00506052;
+			remoteInfo = Soasis;
+		};
+		FA33EAED230EFAFD00506052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA33EAC3230EFAFC00506052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA33EACA230EFAFC00506052;
+			remoteInfo = Soasis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA33EACB230EFAFC00506052 /* Soasis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soasis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA33EACE230EFAFC00506052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA33EAD2230EFAFC00506052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA33EAD5230EFAFC00506052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA33EAD7230EFAFD00506052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA33EADA230EFAFD00506052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA33EADC230EFAFD00506052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA33EAE1230EFAFD00506052 /* SoasisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoasisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA33EAE5230EFAFD00506052 /* SoasisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoasisTests.swift; sourceTree = "<group>"; };
+		FA33EAE7230EFAFD00506052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA33EAEC230EFAFD00506052 /* SoasisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoasisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA33EAF0230EFAFD00506052 /* SoasisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoasisUITests.swift; sourceTree = "<group>"; };
+		FA33EAF2230EFAFD00506052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA33EB03230EFBA100506052 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+		FA33EB06230EFBA200506052 /* buttonSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buttonSound.wav; sourceTree = "<group>"; };
+		FA38185C23155098003A6248 /* gettingAPoint.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gettingAPoint.wav; sourceTree = "<group>"; };
+		FA38185E231551FA003A6248 /* gameBackgroundMusic1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameBackgroundMusic1.wav; sourceTree = "<group>"; };
+		FA38185F231551FA003A6248 /* gameBackgroundMusic2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameBackgroundMusic2.wav; sourceTree = "<group>"; };
+		FA44B3862315ACB2003E8BEE /* losingAPoint.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = losingAPoint.wav; sourceTree = "<group>"; };
+		FA670C21233E769B00887B7D /* buySuccessful.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buySuccessful.wav; sourceTree = "<group>"; };
+		FA670C22233E769B00887B7D /* buyUnsuccessful.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyUnsuccessful.wav; sourceTree = "<group>"; };
+		FAC0FA7D23118BAE00E06AAF /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		FAC0FA7E23118BAE00E06AAF /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		FAC0FA7F23118BAE00E06AAF /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		FAC0FA8023118BAF00E06AAF /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		FAF8038C23142A0E00C481C1 /* gameBackgroundMusic3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameBackgroundMusic3.wav; sourceTree = "<group>"; };
+		FAF803922314382900C481C1 /* gameStart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameStart.wav; sourceTree = "<group>"; };
+		FAF803952314382A00C481C1 /* motionShakeToggle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = motionShakeToggle.wav; sourceTree = "<group>"; };
+		FAF803972314382A00C481C1 /* harderByScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = harderByScore.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA33EAC8230EFAFC00506052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA33EADE230EFAFD00506052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA33EAE9230EFAFD00506052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA33EAC2230EFAFC00506052 = {
+			isa = PBXGroup;
+			children = (
+				FAC0FA7C23118BA100E06AAF /* fonts */,
+				FA33EAFF230EFB8E00506052 /* audioFiles */,
+				FA33EAFE230EFB6A00506052 /* Storyboards */,
+				FA33EACD230EFAFC00506052 /* Soasis */,
+				FA33EAE4230EFAFD00506052 /* SoasisTests */,
+				FA33EAEF230EFAFD00506052 /* SoasisUITests */,
+				FA33EACC230EFAFC00506052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA33EACC230EFAFC00506052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA33EACB230EFAFC00506052 /* Soasis.app */,
+				FA33EAE1230EFAFD00506052 /* SoasisTests.xctest */,
+				FA33EAEC230EFAFD00506052 /* SoasisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA33EACD230EFAFC00506052 /* Soasis */ = {
+			isa = PBXGroup;
+			children = (
+				FA33EACE230EFAFC00506052 /* AppDelegate.swift */,
+				FA33EAD2230EFAFC00506052 /* ViewController.swift */,
+				FA33EAD7230EFAFD00506052 /* Assets.xcassets */,
+				FA33EADC230EFAFD00506052 /* Info.plist */,
+			);
+			path = Soasis;
+			sourceTree = "<group>";
+		};
+		FA33EAE4230EFAFD00506052 /* SoasisTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA33EAE5230EFAFD00506052 /* SoasisTests.swift */,
+				FA33EAE7230EFAFD00506052 /* Info.plist */,
+			);
+			path = SoasisTests;
+			sourceTree = "<group>";
+		};
+		FA33EAEF230EFAFD00506052 /* SoasisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA33EAF0230EFAFD00506052 /* SoasisUITests.swift */,
+				FA33EAF2230EFAFD00506052 /* Info.plist */,
+			);
+			path = SoasisUITests;
+			sourceTree = "<group>";
+		};
+		FA33EAFE230EFB6A00506052 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FA33EAD4230EFAFC00506052 /* Main.storyboard */,
+				FA33EAD9230EFAFD00506052 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FA33EAFF230EFB8E00506052 /* audioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FA33EB06230EFBA200506052 /* buttonSound.wav */,
+				FA33EB03230EFBA100506052 /* gameOver.wav */,
+				FAF803922314382900C481C1 /* gameStart.wav */,
+				FAF803972314382A00C481C1 /* harderByScore.wav */,
+				FA38185C23155098003A6248 /* gettingAPoint.wav */,
+				FA44B3862315ACB2003E8BEE /* losingAPoint.wav */,
+				FAF803952314382A00C481C1 /* motionShakeToggle.wav */,
+				FA670C21233E769B00887B7D /* buySuccessful.wav */,
+				FA670C22233E769B00887B7D /* buyUnsuccessful.wav */,
+				FA38185E231551FA003A6248 /* gameBackgroundMusic1.wav */,
+				FA38185F231551FA003A6248 /* gameBackgroundMusic2.wav */,
+				FAF8038C23142A0E00C481C1 /* gameBackgroundMusic3.wav */,
+			);
+			path = audioFiles;
+			sourceTree = "<group>";
+		};
+		FAC0FA7C23118BA100E06AAF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAC0FA7E23118BAE00E06AAF /* Raleway-Light.ttf */,
+				FAC0FA7F23118BAE00E06AAF /* Raleway-Regular.ttf */,
+				FAC0FA7D23118BAE00E06AAF /* Raleway-SemiBold.ttf */,
+				FAC0FA8023118BAF00E06AAF /* Raleway-Thin.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA33EACA230EFAFC00506052 /* Soasis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA33EAF5230EFAFD00506052 /* Build configuration list for PBXNativeTarget "Soasis" */;
+			buildPhases = (
+				FA33EAC7230EFAFC00506052 /* Sources */,
+				FA33EAC8230EFAFC00506052 /* Frameworks */,
+				FA33EAC9230EFAFC00506052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soasis;
+			productName = Soasis;
+			productReference = FA33EACB230EFAFC00506052 /* Soasis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA33EAE0230EFAFD00506052 /* SoasisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA33EAF8230EFAFD00506052 /* Build configuration list for PBXNativeTarget "SoasisTests" */;
+			buildPhases = (
+				FA33EADD230EFAFD00506052 /* Sources */,
+				FA33EADE230EFAFD00506052 /* Frameworks */,
+				FA33EADF230EFAFD00506052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA33EAE3230EFAFD00506052 /* PBXTargetDependency */,
+			);
+			name = SoasisTests;
+			productName = SoasisTests;
+			productReference = FA33EAE1230EFAFD00506052 /* SoasisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA33EAEB230EFAFD00506052 /* SoasisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA33EAFB230EFAFD00506052 /* Build configuration list for PBXNativeTarget "SoasisUITests" */;
+			buildPhases = (
+				FA33EAE8230EFAFD00506052 /* Sources */,
+				FA33EAE9230EFAFD00506052 /* Frameworks */,
+				FA33EAEA230EFAFD00506052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA33EAEE230EFAFD00506052 /* PBXTargetDependency */,
+			);
+			name = SoasisUITests;
+			productName = SoasisUITests;
+			productReference = FA33EAEC230EFAFD00506052 /* SoasisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA33EAC3230EFAFC00506052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = ShyMemoriees;
+				TargetAttributes = {
+					FA33EACA230EFAFC00506052 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					FA33EAE0230EFAFD00506052 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FA33EACA230EFAFC00506052;
+					};
+					FA33EAEB230EFAFD00506052 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FA33EACA230EFAFC00506052;
+					};
+				};
+			};
+			buildConfigurationList = FA33EAC6230EFAFC00506052 /* Build configuration list for PBXProject "Soasis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA33EAC2230EFAFC00506052;
+			productRefGroup = FA33EACC230EFAFC00506052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA33EACA230EFAFC00506052 /* Soasis */,
+				FA33EAE0230EFAFD00506052 /* SoasisTests */,
+				FA33EAEB230EFAFD00506052 /* SoasisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA33EAC9230EFAFC00506052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF8039B2314382A00C481C1 /* motionShakeToggle.wav in Resources */,
+				FA381861231551FA003A6248 /* gameBackgroundMusic2.wav in Resources */,
+				FA670C24233E769B00887B7D /* buyUnsuccessful.wav in Resources */,
+				FAF8038F23142A0E00C481C1 /* gameBackgroundMusic3.wav in Resources */,
+				FA33EADB230EFAFD00506052 /* LaunchScreen.storyboard in Resources */,
+				FAF803982314382A00C481C1 /* gameStart.wav in Resources */,
+				FA670C23233E769B00887B7D /* buySuccessful.wav in Resources */,
+				FA33EAD8230EFAFD00506052 /* Assets.xcassets in Resources */,
+				FAF8039D2314382A00C481C1 /* harderByScore.wav in Resources */,
+				FA44B3872315ACB2003E8BEE /* losingAPoint.wav in Resources */,
+				FA33EAD6230EFAFC00506052 /* Main.storyboard in Resources */,
+				FA38185D23155098003A6248 /* gettingAPoint.wav in Resources */,
+				FA33EB0A230EFBA200506052 /* gameOver.wav in Resources */,
+				FA33EB0D230EFBA200506052 /* buttonSound.wav in Resources */,
+				FA381860231551FA003A6248 /* gameBackgroundMusic1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA33EADF230EFAFD00506052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA33EAEA230EFAFD00506052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA33EAC7230EFAFC00506052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA33EAD3230EFAFC00506052 /* ViewController.swift in Sources */,
+				FA33EACF230EFAFC00506052 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA33EADD230EFAFD00506052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA33EAE6230EFAFD00506052 /* SoasisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA33EAE8230EFAFD00506052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA33EAF1230EFAFD00506052 /* SoasisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA33EAE3230EFAFD00506052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA33EACA230EFAFC00506052 /* Soasis */;
+			targetProxy = FA33EAE2230EFAFD00506052 /* PBXContainerItemProxy */;
+		};
+		FA33EAEE230EFAFD00506052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA33EACA230EFAFC00506052 /* Soasis */;
+			targetProxy = FA33EAED230EFAFD00506052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA33EAD4230EFAFC00506052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA33EAD5230EFAFC00506052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA33EAD9230EFAFD00506052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA33EADA230EFAFD00506052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA33EAF3230EFAFD00506052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA33EAF4230EFAFD00506052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA33EAF6230EFAFD00506052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36A67CSFU;
+				INFOPLIST_FILE = Soasis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.shymemoriees.Soasis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA33EAF7230EFAFD00506052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36A67CSFU;
+				INFOPLIST_FILE = Soasis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.shymemoriees.Soasis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FA33EAF9230EFAFD00506052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoasisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.shymemoriees.SoasisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soasis.app/Soasis";
+			};
+			name = Debug;
+		};
+		FA33EAFA230EFAFD00506052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoasisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.shymemoriees.SoasisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soasis.app/Soasis";
+			};
+			name = Release;
+		};
+		FA33EAFC230EFAFD00506052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoasisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.shymemoriees.SoasisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soasis;
+			};
+			name = Debug;
+		};
+		FA33EAFD230EFAFD00506052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoasisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.shymemoriees.SoasisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soasis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA33EAC6230EFAFC00506052 /* Build configuration list for PBXProject "Soasis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA33EAF3230EFAFD00506052 /* Debug */,
+				FA33EAF4230EFAFD00506052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA33EAF5230EFAFD00506052 /* Build configuration list for PBXNativeTarget "Soasis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA33EAF6230EFAFD00506052 /* Debug */,
+				FA33EAF7230EFAFD00506052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA33EAF8230EFAFD00506052 /* Build configuration list for PBXNativeTarget "SoasisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA33EAF9230EFAFD00506052 /* Debug */,
+				FA33EAFA230EFAFD00506052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA33EAFB230EFAFD00506052 /* Build configuration list for PBXNativeTarget "SoasisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA33EAFC230EFAFD00506052 /* Debug */,
+				FA33EAFD230EFAFD00506052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA33EAC3230EFAFC00506052 /* Project object */;
+}
