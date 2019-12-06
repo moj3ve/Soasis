@@ -22,6 +22,9 @@
 		FA44B3872315ACB2003E8BEE /* losingAPoint.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA44B3862315ACB2003E8BEE /* losingAPoint.wav */; };
 		FA670C23233E769B00887B7D /* buySuccessful.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA670C21233E769B00887B7D /* buySuccessful.wav */; };
 		FA670C24233E769B00887B7D /* buyUnsuccessful.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA670C22233E769B00887B7D /* buyUnsuccessful.wav */; };
+		FAE3A93423993C1900A9D115 /* mainBackgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE3A93323993C1900A9D115 /* mainBackgroundMusic.wav */; };
+		FAE3A93523993C1900A9D115 /* mainBackgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE3A93323993C1900A9D115 /* mainBackgroundMusic.wav */; };
+		FAE3A93623993C1900A9D115 /* mainBackgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE3A93323993C1900A9D115 /* mainBackgroundMusic.wav */; };
 		FAF8038F23142A0E00C481C1 /* gameBackgroundMusic3.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF8038C23142A0E00C481C1 /* gameBackgroundMusic3.wav */; };
 		FAF803982314382A00C481C1 /* gameStart.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF803922314382900C481C1 /* gameStart.wav */; };
 		FAF8039B2314382A00C481C1 /* motionShakeToggle.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF803952314382A00C481C1 /* motionShakeToggle.wav */; };
@@ -71,6 +74,7 @@
 		FAC0FA7E23118BAE00E06AAF /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
 		FAC0FA7F23118BAE00E06AAF /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
 		FAC0FA8023118BAF00E06AAF /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		FAE3A93323993C1900A9D115 /* mainBackgroundMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mainBackgroundMusic.wav; sourceTree = "<group>"; };
 		FAF8038C23142A0E00C481C1 /* gameBackgroundMusic3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameBackgroundMusic3.wav; sourceTree = "<group>"; };
 		FAF803922314382900C481C1 /* gameStart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameStart.wav; sourceTree = "<group>"; };
 		FAF803952314382A00C481C1 /* motionShakeToggle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = motionShakeToggle.wav; sourceTree = "<group>"; };
@@ -175,6 +179,7 @@
 				FAF803952314382A00C481C1 /* motionShakeToggle.wav */,
 				FA670C21233E769B00887B7D /* buySuccessful.wav */,
 				FA670C22233E769B00887B7D /* buyUnsuccessful.wav */,
+				FAE3A93323993C1900A9D115 /* mainBackgroundMusic.wav */,
 				FA38185E231551FA003A6248 /* gameBackgroundMusic1.wav */,
 				FA38185F231551FA003A6248 /* gameBackgroundMusic2.wav */,
 				FAF8038C23142A0E00C481C1 /* gameBackgroundMusic3.wav */,
@@ -306,6 +311,7 @@
 				FA670C23233E769B00887B7D /* buySuccessful.wav in Resources */,
 				FA33EAD8230EFAFD00506052 /* Assets.xcassets in Resources */,
 				FAF8039D2314382A00C481C1 /* harderByScore.wav in Resources */,
+				FAE3A93423993C1900A9D115 /* mainBackgroundMusic.wav in Resources */,
 				FA44B3872315ACB2003E8BEE /* losingAPoint.wav in Resources */,
 				FA33EAD6230EFAFC00506052 /* Main.storyboard in Resources */,
 				FA38185D23155098003A6248 /* gettingAPoint.wav in Resources */,
@@ -319,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE3A93523993C1900A9D115 /* mainBackgroundMusic.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE3A93623993C1900A9D115 /* mainBackgroundMusic.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

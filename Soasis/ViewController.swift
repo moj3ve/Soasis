@@ -8,7 +8,6 @@
 
 import UIKit
 import AVFoundation
-import AudioToolbox
 
 class ViewController: UIViewController {
     
@@ -161,13 +160,15 @@ class ViewController: UIViewController {
         swipeDown.direction = UISwipeGestureRecognizer.Direction.down
         self.view.addGestureRecognizer(swipeDown)
         
+        self.homeBackgroundMusic()
         self.checkForScoreAtViewDidLoad()
         self.setCoinAmountOnViewDidLoad()
-        setBoughtItemsOnViewDidLoad()
+        self.setBoughtItemsOnViewDidLoad()
         self.setUIColorOnViewDidLoad()
         self.setWallpaperOnViewDidLoad()
         self.setBlurStateOnViewDidLoad()
         self.changeScoreLabel()
+        
         
         self.animePic1.alpha = 0
         self.animePic2.alpha = 0
@@ -728,7 +729,6 @@ class ViewController: UIViewController {
                     self.showMistakeImage()
                     self.losingPointSound()
                     
-                    AudioServicesPlaySystemSound(1519)
                     
                     self.gestures()
                     
@@ -887,8 +887,6 @@ class ViewController: UIViewController {
                     self.showMistakeImage()
                     self.losingPointSound()
                     
-                    AudioServicesPlaySystemSound(1519)
-                    
                     self.gestures()
                     
                 }
@@ -1046,8 +1044,6 @@ class ViewController: UIViewController {
                     self.showMistakeImage()
                     self.losingPointSound()
                     
-                    AudioServicesPlaySystemSound(1519)
-                    
                     self.gestures()
                     
                 }
@@ -1204,8 +1200,6 @@ class ViewController: UIViewController {
                     scoreLabel.text = String("Score: \(scoreInt)")
                     self.showMistakeImage()
                     self.losingPointSound()
-                    
-                    AudioServicesPlaySystemSound(1519)
                     
                     self.gestures()
                     
@@ -1374,8 +1368,6 @@ class ViewController: UIViewController {
                                 self.showMistakeImage()
                                 self.losingPointSound()
                                 
-                                AudioServicesPlaySystemSound(1519)
-                                
                                 self.gestures()
                                 
                             }
@@ -1479,6 +1471,24 @@ class ViewController: UIViewController {
             musicIsSelected = true
             
         }
+        
+    }
+    
+    func homeBackgroundMusic() {
+        
+        do {
+            
+            try player1 = AVAudioPlayer(contentsOf: URL(fileURLWithPath: mainBackgroundMusic!))
+            
+        }
+        
+        catch {
+            
+            print(error)
+            
+        }
+        
+        player1.play()
         
     }
     
